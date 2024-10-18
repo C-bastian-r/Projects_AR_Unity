@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="sistema_solar" size="1.000000 0.666667"/>
+        <ImageTarget name="Qube.Top" size="6.000000 6.000000"/>
+        <ImageTarget name="Qube.Right" size="6.000000 6.000000"/>
+        <ImageTarget name="Qube.Left" size="6.000000 6.000000"/>
+        <ImageTarget name="Qube.Front" size="6.000000 6.000000"/>
+        <ImageTarget name="Qube.Bottom" size="6.000000 6.000000"/>
+        <ImageTarget name="Qube.Back" size="6.000000 6.000000"/>
+        <MultiTarget name="Qube">
+            <Part name="Qube.Left" translation="-3.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Qube.Right" translation="3.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Qube.Front" translation="0 0 3.0" rotation="AD: 1 0 0 0"/>
+            <Part name="Qube.Back" translation="0 0 -3.0" rotation="AD: 0 1 0 180"/>
+            <Part name="Qube.Top" translation="0 3.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Qube.Bottom" translation="0 -3.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
